@@ -1,10 +1,14 @@
 import React from 'react'
+import Nav from "./components/Nav"
+import Landing from "./components/Landing"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <Landing />
+      <Nav />
+      <Landing />
+    </>
   );
 }
 
