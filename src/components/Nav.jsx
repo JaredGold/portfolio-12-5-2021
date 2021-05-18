@@ -3,7 +3,7 @@ import NavLink from './NavLink'
 
 const Nav = () => {
 
-  const navStyle = "sticky top-0 pl-16 h-12 bg-gray-800 flex"
+  const navStyle = "sticky top-0 pl-16 h-12 bg-gray-800 flex z-50"
 
   return(
     <nav className={navStyle} >
