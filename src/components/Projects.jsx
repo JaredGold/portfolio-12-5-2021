@@ -11,6 +11,7 @@ const Projects = () => {
           description="My first main project completed at CoderAcademy.
           It is a collection of three casino games Black Jack, Stock Crash and Horse Races."
           imageSource='pics/casino.png'
+          alt='terminal casino'
           frameworks={["Ruby"]}
           linkToWork="https://github.com/JaredGold/Casino"
         />
