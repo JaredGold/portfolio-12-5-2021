@@ -21,7 +21,7 @@ const Landing = () => {
           backSpeed={30}
         />
       </p>
-      <a href="#projects" className="border-2 hover:bg-purple-400 hover:border-purple-400" ><div className="mx-4 my-2 text-white ">My Projects</div></a>
+      <a href="#about" className="border-2 hover:bg-purple-400 hover:border-purple-400" ><div className="mx-4 my-2 text-white ">Show More!</div></a>
     </div>
   )
 }
