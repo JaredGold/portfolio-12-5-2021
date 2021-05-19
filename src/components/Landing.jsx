@@ -15,11 +15,11 @@ const Landing = () => {
             "Father",
             "Coder",
             "Bug Handler",
-            "Full-Stack Web Developer"
+            "Full-Stack Web Developer."
           ]}
           typeSpeed={40}
           backSpeed={30}
-        />.
+        />
       </p>
       <a href="#projects" className="border-2 hover:bg-purple-400 hover:border-purple-400" ><div className="mx-4 my-2 text-white ">My Projects</div></a>
     </div>
