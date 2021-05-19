@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
   return(
-    <div className="h-screen bg-green-900 w-100% flex justify-evenly flex-wrap gap-8 items-center" id="projects">
+    <div className="h-screen bg-gray-100 w-100% flex justify-evenly flex-wrap gap-8 items-center" id="projects">
       <Fade left>
         <div className="bg-white rounded-md flex w-96 flex-col p-4 shadow-2xl" >
           <img src="https://picsum.photos/400/300" alt="Random Temp" className="rounded-t-md self-center" />
