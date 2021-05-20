@@ -13,6 +13,7 @@ const Landing = () => {
           strings={[
             "Gamer",
             "Father",
+            "Magician",
             "Coder",
             "Bug Handler",
             "Full-Stack Web Developer."
