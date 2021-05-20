@@ -2,8 +2,7 @@ import React from 'react'
 
 const About = () => {
   return(
-    <div className="h-screen bg-gray-50 w-100% flex justify-center items-center flex-col" id="about">
-      <h2 className="mb-16">About Me</h2>
+    <div className="min-h-screen bg-gray-50 w-100% flex justify-center items-center flex-col" id="about">
       <div className="flex flex-row space-x-12 m-10 max-w-4xl">
         <img alt="pic of me goes here" src="https://picsum.photos/300/400" className="border-2 shadow-md" />
         <div>
