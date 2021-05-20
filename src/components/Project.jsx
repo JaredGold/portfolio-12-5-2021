@@ -23,8 +23,17 @@ const Project = (props) => {
     )
   }
 
+  const modalClass = "bg-white self-start rounded-md flex w-96 flex-col p-4 shadow-2xl w-100% md:w-9/12 " //md:absolute
+  const noModalClass = "bg-white self-start rounded-md flex w-96 flex-col p-4 shadow-2xl"
+
   return(
-    <div onMouseEnter={toggleActive} onMouseLeave={toggleActive} className="bg-white rounded-md flex w-96 flex-col p-4 shadow-2xl" >
+    <div 
+      onClick={toggleActive}
+      // onMouseEnter={toggleActive}
+      // onMouseLeave={toggleActive} 
+      className={active ? modalClass : noModalClass }
+      // className={noModalClass} 
+    >
       <img src={props.imageSource} alt={props.alt} className="rounded-t-md self-center" />
       <h2 className="text-2xl text-center font-medium pt-2">{props.title}</h2>
       {active ? modal() : null}

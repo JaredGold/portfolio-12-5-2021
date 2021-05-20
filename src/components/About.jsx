@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className="mt-16">
         <h3 className="text-center">Frameworks I Know</h3>
-        <ul className="flex flex-row space-x-4">
+        <ul className="flex flex-row space-x-4 flex-wrap">
           <li>HTML</li>
           <li>CSS</li>
           <li>SCSS</li>

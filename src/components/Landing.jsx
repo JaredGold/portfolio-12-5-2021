@@ -23,6 +23,7 @@ const Landing = () => {
         />
       </p>
       <a href="#about" className="border-2 hover:bg-purple-400 hover:border-purple-400" ><div className="mx-4 my-2 text-white ">Show More!</div></a>
+      <p className="text-white absolute bottom-10 text-2xl">☟</p>
     </div>
   )
 }

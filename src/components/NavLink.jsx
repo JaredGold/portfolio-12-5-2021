@@ -1,7 +1,7 @@
 import React from 'react'
 
 const NavLink = ( {name} ) => {
-  const styles = "mr-8 hover:text-purple-300 text-white self-center" 
+  const styles = "md:mr-8 hover:text-purple-300 text-white self-center" 
 
   return (
     <li className={styles} >
