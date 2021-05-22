@@ -1,5 +1,5 @@
 import React from 'react'
-// import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade';
 import Project from './Project'
 
 const projectArr = [
@@ -40,19 +40,19 @@ const projectArr = [
 const Projects = () => {
   return(
     <div className="min-h-screen py-16 bg-gray-100 w-100% flex justify-center flex-wrap md:space-y-0 md:gap-8 space-y-8 items-center content-center" id="projects">
-      {/* <Fade left> */}
-        {projectArr.map((pro, index) => (
-            <Project 
-              title={pro.title}
-              description={pro.description}
-              imageSource={pro.imageSource}
-              alt={pro.alt}
-              frameworks={pro.frameworks}
-              linkToWork={pro.linkToWork}
-              key={index}
-              />
-        ))}
-      {/* </ Fade> */}
+      {projectArr.map((pro, index) => (
+        < Fade >
+          <Project 
+            title={pro.title}
+            description={pro.description}
+            imageSource={pro.imageSource}
+            alt={pro.alt}
+            frameworks={pro.frameworks}
+            linkToWork={pro.linkToWork}
+            key={index}
+            />
+        </Fade>
+      ))}
     </div>
   )
 }

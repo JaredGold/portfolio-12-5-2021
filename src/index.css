@@ -10,3 +10,7 @@ body{
   margin: 0px;
   padding: 0px;
 }
+
+.ReactModal__Body--open {
+  overflow-y: hidden;
+}

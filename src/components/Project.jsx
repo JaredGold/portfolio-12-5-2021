@@ -47,12 +47,13 @@ const Project = (props) => {
             transform             : 'translate(-50%, -50%)',
             display               : 'flex',
             flexDirection         : 'column',
-            width                 : '90vw'
+            width                 : '90vw',
+            height                : '75%'
           }
         }}
       >
         <img src={props.imageSource} alt={props.alt}
-          className="rounded-t-md self-center select-none" />
+          className="rounded-t-md self-center select-none max-w-screen-md" />
         <h2 className="text-2xl text-center font-medium pt-2 select-none">{props.title}</h2>
         <p className="text-center">{props.description}</p>
         <h3 className="text-xl text-center font-medium pt-3 select-none">
