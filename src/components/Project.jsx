@@ -32,7 +32,7 @@ const Project = (props) => {
   return (
     <div
       onClick={toggleActive}
-      className="bg-white self-start rounded-md flex w-96 flex-col p-4 shadow-2xl cursor-pointer"
+      className="bg-white self-start rounded-md flex w-96 flex-col p-4 shadow-2xl cursor-pointer border border-black border-opacity-25"
     >
       <Modal
         isOpen={active}
