@@ -3,22 +3,21 @@ import React from "react";
 const About = () => {
   return (
     <div
-      className="min-h-screen bg-gray-50 w-full flex justify-center content-center items-center flex-col"
+      className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-200 flex justify-center items-center flex-col flex-wrap"
       id="about"
     >
-      <div className="grid grid-cols-3 grid-rows-2 h-full w-full gap-1 justify-items-center place-content-center">
-        <div className="border-2 border-black row-span-3 ">
-          <img src="https://picsum.photos/400/600" alt="random" />
-        </div>
-        <div className="border-2 border-black col-span-2 w-full flex justify-center items-center">
-          <h1>About Me</h1>
-        </div>
-        <div className="border-2 border-black col-span-2">
-          <p>{loremIpsum}</p>
+      <div className="flex justify-center gap-8 flex-wrap mt-8">
+          <img src="https://picsum.photos/400/600" alt="random" className="rounded-lg shadow-2xl md:w-auto w-3/5"/>
+
+        <div className="md:w-2/5 w-4/5 h-full border bg-white p-4 shadow-md min-h-full">
+            <h1 className="text-center text-2xl">About Me</h1>
+          
+            <p className="mt-8">{loremIpsum}</p>
         </div>
       </div>
-      <div className="border-2 border-black mt-8 w-1/2">
-        <h4 className="text-center mb-4" >Languages Found</h4>
+
+      <div className="border-2 border-black mt-8 mb-8 w-1/2">
+        <h4 className="text-center mb-4">Languages Known</h4>
         <ul className="flex flex-row justify-evenly">
           <li>lang1</li>
           <li>lang1</li>

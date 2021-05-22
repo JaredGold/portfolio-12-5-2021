@@ -40,7 +40,7 @@ const projectArr = [
 
 const Projects = () => {
   return(
-    <div className="min-h-screen py-16 bg-gray-100 w-100% flex justify-center flex-wrap md:space-y-0 md:gap-8 space-y-8 items-center content-center" id="projects">
+    <div className="min-h-screen py-16 bg-gradient-to-b from-gray-200 to-gray-50 w-100% flex justify-center flex-wrap md:space-y-0 md:gap-8 space-y-8 items-center content-center" id="projects">
       {projectArr.map((pro, index) => (
         < Fade >
           <Project 
