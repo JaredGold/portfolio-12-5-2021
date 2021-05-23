@@ -40,7 +40,7 @@ const About = () => {
         <h4 className="text-center mb-4 font-semibold text-lg">
           Technologies Known
         </h4>
-        <ul className="flex flex-row justify-center flex-wrap md:gap-x-8 md:gap-y-2 p-2 text-2xl">
+        <ul className="flex flex-row justify-center flex-wrap space-x-8 space-y-2 p-2 text-2xl">
           <li data-tip="Ruby" className="text-red-600"><DiRuby /></li>
           <li data-tip="Ruby on Rails" className="text-3xl text-red-700"><SiRails /></li>
           <li data-tip="JavaScript" className="text-yellow-600"><SiJavascript /></li>
