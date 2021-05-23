@@ -6,8 +6,7 @@ const Landing = () => {
 
   return (
     <div className="h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-800 w-100% flex justify-center flex-col items-center" id="home">
-      {/* <Canvas className="absolute inset-0 z-10"/> */}
-      <p className="text-gray-200 text-center text-4xl mb-4 select-none">
+      <p className="font-mono text-gray-200 text-center text-4xl mb-4 select-none">
         Hello, I am <span className="text-pink-400">Jared Goldstein</span><br/>
         I am a <span className="text-purple-400"><Typed 
           strings={[
