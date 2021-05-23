@@ -8,7 +8,7 @@ const Contact = () => {
       id="contact"
     >
       <h1 className="text-4xl">Contact</h1>
-      <p>THIS IS FILLER TEXT COME AND CHAT</p>
+      <p>THIS IS SOME FILLER TEXT COME AND CHAT</p>
 
       <a
         href="mailto: jegoldstein94@gmail.com"
