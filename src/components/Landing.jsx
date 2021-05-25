@@ -6,7 +6,7 @@ const Landing = () => {
 
   return (
     <div className="h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-800 w-100% flex justify-center flex-col items-center" id="home">
-      <p className="font-mono text-gray-200 text-center text-4xl mb-4 select-none">
+      <p className="font-mono text-gray-200 text-center sm:text-4xl text-2xl mb-4 select-none">
         Hello, I am <span className="text-pink-400">Jared Goldstein</span><br/>
         I am a <span className="text-purple-400"><Typed 
           strings={[
