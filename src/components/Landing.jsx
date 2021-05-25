@@ -17,8 +17,8 @@ const Landing = () => {
             "Bug Handler",
             "Full-Stack Developer."
           ]}
-          typeSpeed={20}
-          backSpeed={10}
+          typeSpeed={25}
+          backSpeed={15}
         /></span>
       </p>
       <a href="#about" className="border-2 transition duration-100 hover:bg-purple-400 hover:border-purple-400" ><div className="mx-4 my-2 text-white ">Show More!</div></a>
