@@ -1,6 +1,15 @@
 import React from "react";
 import { DiRuby } from "react-icons/di";
-import { SiRails, SiJavascript, SiReact , SiPostgresql, SiTailwindcss, SiHtml5, SiCss3, SiNodeDotJs } from "react-icons/si";
+import {
+  SiRails,
+  SiJavascript,
+  SiReact,
+  SiPostgresql,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiNodeDotJs,
+} from "react-icons/si";
 import ReactTooltip from "react-tooltip";
 
 const About = () => {
@@ -21,16 +30,20 @@ const About = () => {
           <h1 className="text-center text-2xl font-semibold">About Me</h1>
 
           <p className="mt-8">
-            Hi, my name is Jared Goldstein and I am a programmer with a creative
-            mind. I started studying at Coder Academy in Sydney beginning in October
-            2020 and have also taken multiple self-guided developer courses online
-            prior to that.
+            Hi, my name is Jared Goldstein. I am a programmer with a creative
+            mind. I started studying at Coder Academy, Sydney in October 2020
+            and have previously taken multiple self-guided developer courses
+            online.
           </p>
           <p className="mt-4">
-            Please take a look at my projects to see what I have achieved so far! I
-            take great pride in what I do and due to my effective communication skills
-            I work successfuly within a team and also independently. I love
-            learning and creating, so programming has become a perfect fit for me.
+            I take great pride in what I do and encourage you to view my
+            projects to see what I have achieved so far! Having
+            effective communication skills allows me to work both autonomously
+            and within a team, to successfully listen and deliver what the
+            client is seeking. Programming is the perfect fit for me as it
+            combines my love for learning and creating.
+          </p>
+          <p className="mt-4">
             Simply put, my creations are functional and my code is clean.
           </p>
         </div>
@@ -41,15 +54,33 @@ const About = () => {
           Technologies Known
         </h4>
         <ul className="flex flex-row justify-center flex-wrap space-x-8 space-y-2 p-2 text-2xl">
-          <li data-tip="Ruby" className="text-red-600"><DiRuby /></li>
-          <li data-tip="Ruby on Rails" className="text-3xl text-red-700"><SiRails /></li>
-          <li data-tip="JavaScript" className="text-yellow-600"><SiJavascript /></li>
-          <li data-tip="React.js" className="text-blue-600"><SiReact /></li>
-          <li data-tip="PostgreSQL" className="text-blue-800"><SiPostgresql /></li>
-          <li data-tip="Tailwind CSS" className="text-blue-400"><SiTailwindcss /></li>
-          <li data-tip="Node.js" className="text-green-600"><SiNodeDotJs /></li>
-          <li data-tip="HTML 5" className="text-red-400"><SiHtml5 /></li>
-          <li data-tip="CSS 3" className="text-blue-400"><SiCss3 /></li>
+          <li data-tip="Ruby" className="text-red-600">
+            <DiRuby />
+          </li>
+          <li data-tip="Ruby on Rails" className="text-3xl text-red-700">
+            <SiRails />
+          </li>
+          <li data-tip="JavaScript" className="text-yellow-600">
+            <SiJavascript />
+          </li>
+          <li data-tip="React.js" className="text-blue-600">
+            <SiReact />
+          </li>
+          <li data-tip="PostgreSQL" className="text-blue-800">
+            <SiPostgresql />
+          </li>
+          <li data-tip="Tailwind CSS" className="text-blue-400">
+            <SiTailwindcss />
+          </li>
+          <li data-tip="Node.js" className="text-green-600">
+            <SiNodeDotJs />
+          </li>
+          <li data-tip="HTML 5" className="text-red-400">
+            <SiHtml5 />
+          </li>
+          <li data-tip="CSS 3" className="text-blue-400">
+            <SiCss3 />
+          </li>
         </ul>
       </div>
     </div>
