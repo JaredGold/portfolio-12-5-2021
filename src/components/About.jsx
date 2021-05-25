@@ -14,7 +14,7 @@ const About = () => {
         <img
           src="./pics/main-img.jpeg"
           alt="random"
-          className="rounded-lg shadow-2xl md:mb-0 mb-4 md:w-1/5 w-3/5"
+          className="rounded-lg shadow-2xl md:mb-0 mb-4 md:w-1/5 h-auto w-3/5"
         />
 
         <div className="md:w-2/5 w-4/5 h-full border bg-white p-4 shadow-lg min-h-full">
