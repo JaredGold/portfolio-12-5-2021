@@ -23,15 +23,15 @@ const About = () => {
           <p className="mt-8">
             Hi, my name is Jared Goldstein and I am a programmer with a creative
             mind. I started studying at Coder Academy in Sydney since October
-            2020 but I have also taken self-guided developer courses online
+            2020 and have also taken multiple self-guided developer courses online
             prior to that.
           </p>
           <p className="mt-4">
-            Take a look at my projects to see what I have achieved so far! I
-            take great pride in what I do and I work hard in a team and
+            Please take a look at my projects to see what I have achieved so far! I
+            take great pride in what I do and work hard in a team and
             independently as I have effective communication skills. I love
-            learning and creating so programming has been a perfect fit for me.
-            Simply put- my creations are functional and my codes are clean.
+            learning and creating, so programming has become a perfect fit for me.
+            Simply put- my creations are functional and my code is clean.
           </p>
         </div>
       </div>
