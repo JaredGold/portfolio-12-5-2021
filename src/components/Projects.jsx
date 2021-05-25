@@ -5,10 +5,10 @@ import Project from './Project'
 const projectArr = [
   {
     title:"TFT Tracker",
-    description: "Made in a team as apart of a bootcamp based hackathon within 36 hours, TFT tracker is an application to track your game history using Riot API. This was done in a group of 3 and I primarily focused on creating the express server and the javascript elements to pull the data and display it. Unfortunately this API requires the key to be updated every 24 hours, meaning this app is not active. If you would like to view the app please contact me and I will update the key.",
+    description: "Made in a team as apart of a bootcamp based hackathon within 36 hours. TFT tracker is an application to track your game history using Riot API. This was done in a group of 3 and I primarily focused on creating the express server and the javascript elements to pull the data and display it. Unfortunately this API requires the key to be updated every 24 hours, meaning this app is not active. If you would like to view the app please contact me and I will update the key.",
     imageSource: "pics/tft-tracker.png",
     alt: "tft-tracker",
-    frameworks: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
+    frameworks: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "RiotAPI"],
     linkToWork: "https://github.com/The-Box-Box/TFT-Tracker"
   },
   {
@@ -20,8 +20,8 @@ const projectArr = [
     linkToWork: "https://picz-r-us.herokuapp.com/"
   },
   {
-    title: "Portfolio (dated)",
-    description: "This was my first project completed at CoderAcademy. It was the first time I had used HTML, CSS and SCSS which overall forced me to start thinking more like a programmer and led me to the career path I am on today",
+    title: "First Portfolio",
+    description: "This was my first project completed at CoderAcademy. It was the first time I had used HTML, CSS and SCSS which overall forced me to start thinking more like a programmer and led me to the career path I am on today. The challenges I faced with this project was attempting to make a versatile and mobile friendly website while not using JavaScript.",
     imageSource: "pics/portfolio.png",
     alt: "portfolio",
     frameworks: ["HTML", "SCSS", "CSS", "Netlify"],
@@ -29,7 +29,7 @@ const projectArr = [
   },
   {
     title: "Casino Application",
-    description: "My second project completed at CoderAcademy. It is a collection of three casino games Black Jack, Stock Crash and Horse Races.",
+    description: "My second project completed at CoderAcademy. It is a collection of three casino games Black Jack, Stock Crash and Horse Races. This collection was created using only Ruby and was my first endeavour to use logic in my programming. This was a challenge to complete but well worth the endeavour as it taught me a lot about multi threaded applications.",
     imageSource: 'pics/casino.png',
     alt: "terminal casino",
     frameworks: ["Ruby"],
